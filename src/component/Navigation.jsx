@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Icon } from "@iconify/react";
 import Btn from "./Btn";
 import { Link } from "react-router-dom";
@@ -7,7 +8,7 @@ function Navigation() {
   return (
     <>
       <nav className="flex  justify-between items-center bg-white py-[10px] px-[36px] text-sm ">
-        <Link to="/">
+        <Link to="/react-project/">
           <img
             className="sm:max-w-[200px] max-w-[100px] sm:pl-[5%] pl-2"
             src="src/assets/images/logo_sosmwasi 1.png"
@@ -21,7 +22,7 @@ function Navigation() {
           }
         </div>
         <ul className="w-[64%] hidden sm:flex flex-col justify-between items-center sm:flex-row md:flex-row lg:flex-row ">
-          <Link to="/about" className="list-none text-black">
+          <Link to="/react-project/about" className="list-none text-black">
             A propos
           </Link>
           <li className="list-none text-black">Que sont les VGB?</li>
