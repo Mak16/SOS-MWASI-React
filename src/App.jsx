@@ -10,8 +10,8 @@ function App() {
     <>
       <Navigation />
       <Routes>
-        <Route path="SOS-MWASI-React/" element={<Home />} />
-        <Route path="SOS-MWASI-React/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route />
       </Routes>
       <Footer />

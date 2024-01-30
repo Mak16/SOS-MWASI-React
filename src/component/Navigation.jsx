@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <>
       <nav className="flex  justify-between items-center bg-white py-[10px] px-[36px] text-sm ">
-        <Link to="SOS-MWASI-React/">
+        <Link to="/">
           <img
             className="sm:max-w-[200px] max-w-[100px] sm:pl-[5%] pl-2"
             src="src/assets/images/logo_sosmwasi 1.png"
@@ -29,7 +29,7 @@ function Navigation() {
           )}
         </div>
         <ul className="w-[64%] hidden sm:flex flex-col justify-between items-center sm:flex-row md:flex-row lg:flex-row ">
-          <Link to="SOS-MWASI-React/about" className="list-none text-black">
+          <Link to="/about" className="list-none text-black">
             A propos
           </Link>
           <li className="list-none text-black">Que sont les VGB?</li>
