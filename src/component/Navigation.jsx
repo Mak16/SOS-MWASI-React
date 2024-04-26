@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import Btn from "./Btn";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import img from "../assets/images/logo_sosmwasi 1.png";
 function Navigation() {
   let [isOpen, setIsOpen] = useState(false);
   return (
@@ -11,7 +12,7 @@ function Navigation() {
         <Link to="/">
           <img
             className="sm:max-w-[200px] max-w-[100px] sm:pl-[5%] pl-2"
-            src="src/assets/images/logo_sosmwasi 1.png"
+            src={img}
             alt="logo S.O.S Mwasi"
           />
         </Link>

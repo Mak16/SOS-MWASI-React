@@ -1,5 +1,7 @@
-import Testimonial from './Testimonial';
-import Header from './Header';
+import Testimonial from "./Testimonial";
+import Header from "./Header";
+import vector from "../assets/images/Vector.png";
+import vector1 from "../assets/images/Vector (1).png";
 function Home() {
   return (
     <>
@@ -33,11 +35,7 @@ function Home() {
       <section className="bg-[#91D2FB] text-[#095789] ">
         <div className="pt-[2rem] pb-[2rem] ">
           <div className="pt-0 flex pl-[3%] pr-[3%] flex-row items-center justify-between ">
-            <img
-              src="src/assets/images/Vector.png"
-              className="w-[17px] h-[29px]"
-              alt="vector"
-            />
+            <img src={vector} className="w-[17px] h-[29px]" alt="vector" />
             <p className="w-[80%] flex justify-center text-center">
               "La violence à l'égard des femmes et des filles constitue une
               grave violation des droits de l'homme. Son impact va des
@@ -52,11 +50,7 @@ function Home() {
               des pertes de productivité, ce qui a un impact sur les budgets
               nationaux et le développement global. "
             </p>
-            <img
-              src="src/assets/images/Vector (1).png"
-              className="w-[17px] h-[29px] "
-              alt="vecctor"
-            />
+            <img src={vector1} className="w-[17px] h-[29px] " alt="vecctor" />
           </div>
           <div className="flex pt-[1rem] sm:justify-start justify-center">
             <p className="sm:pl-[13%] font-bold">
